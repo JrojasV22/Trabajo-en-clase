@@ -19,8 +19,8 @@ function Quote(){
         try{
             const response=await fetch("https://api.quotable.io/random")
             const data=await response.json()
-            setTex(data.author)
-            setAuthor(data.content)
+            setAuthor(data.author)
+            setTex(data.content)
         }
     
         catch(error){
@@ -29,11 +29,18 @@ function Quote(){
     }
 
     return(
-        <>
-            <h1>Aplicación de citas famosas</h1>
-            <p>Texto: {text}</p>
-            <p>Autor: {author}</p>        
-            <button onClick={fetchQuote}>Generar cita</button>
+        <>  
+            <div className="text-center aa">
+                <h1>Aplicación de citas famosas</h1>
+            </div>
+            
+            <p className="te b">Texto: {text}</p>
+            <p className="te l">Autor: {author}</p>     
+            <div className="text-center">
+                <button onClick={fetchQuote} className="bu miB miBB">Generar cita</button>
+          
+            </div>   
+            
         </>
     )
 }

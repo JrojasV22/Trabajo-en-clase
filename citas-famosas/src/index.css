@@ -1,0 +1,50 @@
+.te{
+    font-size: 1.5rem;
+}
+
+body{
+    background-color: darkslategrey;
+}
+
+.m{
+    background-color: antiquewhite;
+    border-radius: 8px;
+
+}
+
+.b{
+    background-color: rgb(230, 196, 151);
+    border-radius: 1rem;
+    padding: 9px;
+    font-family: 'Times New Roman', Times, serif
+    
+}
+
+.l{
+    background-color:  rgb(184, 137, 75);
+    border-radius: 1rem;
+    padding: 9px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.bu{
+    border-radius: 1rem;
+    border-style: solid;
+    background-color: rgb(155, 133, 103);
+    color: aliceblue;
+    font-family:sans-serif;
+
+}
+
+.aa{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+p.Texto{
+    font-size: 1rem;
+}
+
+.miB:hover{
+    background-color: rgb(97, 55, 1);
+}
+

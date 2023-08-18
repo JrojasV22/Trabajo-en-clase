@@ -9,7 +9,10 @@ function App() {
 
   return (
     <>
-      <Quote/>
+      <div className='container mt-5 p-4 m'>
+        <Quote/>
+      </div>
+       
     </>
   )
 }
